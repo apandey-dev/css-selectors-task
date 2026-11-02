@@ -1,0 +1,112 @@
+/* Global & Layout Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.main-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Orange/Coral container box with thick black border */
+.container {
+    background-color: #ff7f50;
+    border: 4px solid #000000;
+    padding: 25px 30px;
+}
+
+/* Class Selector: Headings with class 'head' */
+.head {
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* ID Selector: Second heading with ID 'bglime' */
+#bglime {
+    background-color: #00ff00;
+    padding: 4px 6px;
+    width: fit-content;
+}
+
+/* Descendant Selector: Red word 'head' inside #bglime */
+#bglime span {
+    color: red;
+}
+
+/* Element Selector: All paragraphs have white text */
+p {
+    color: white;
+    font-size: 18px;
+    margin: 14px 0;
+}
+
+/* Span styling inside paragraphs: larger black text */
+p span {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ID Selector: Second paragraph with ID 'para' has green text */
+#para {
+    color: #00e600;
+}
+
+/* Bold note text */
+p b {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* Unordered List & Pseudo-class styling for 'a' tags (no class or id on 'a') */
+ul {
+    margin: 10px 0 20px 20px;
+    color: white;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* First link: yellow background with green text */
+ul li:first-child a {
+    background-color: #ffff00;
+    color: #008000;
+    text-decoration: none;
+    padding: 1px 3px;
+    font-weight: bold;
+}
+
+/* Second link: blue background with cyan text */
+ul li:last-child a {
+    background-color: #0000ff;
+    color: #00ffff;
+    text-decoration: none;
+    padding: 1px 3px;
+}
+
+/* Ordered List & Pseudo-class styling for list items */
+ol {
+    margin: 15px 0 20px 20px;
+    font-size: 14px;
+}
+
+ol li {
+    margin: 4px 0;
+    color: #000000;
+}
+
+/* Second li element in blue */
+ol li:nth-child(2) {
+    color: #0000ff;
+}
+
+/* Third li element in red */
+ol li:nth-child(3) {
+    color: #ff0000;
+}
