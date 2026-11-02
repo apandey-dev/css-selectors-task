@@ -52,6 +52,6 @@ To demonstrate core CSS selector capabilities including element selectors, class
 - Closely replicates the layout, colors, and selector outputs shown in `03.png`.
 
 ## 9. Deployment Information
-- **GitHub Repository:** Private repository `css-selectors-task`
+- **GitHub Repository:** [css-selectors-task](https://github.com/apandey-dev/css-selectors-task) (Private)
 - **Deployment Platform:** Vercel
 - **Live URL:** To be updated after deployment
