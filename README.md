@@ -12,4 +12,5 @@ A webpage built to practice different CSS selectors like element, class, ID, and
 - `README.md`
 
 ### Screenshots
-Screenshots will be added here.
+
+![Project Screenshot](screenshots/03.png)
